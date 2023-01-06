@@ -4,10 +4,37 @@
   box-sizing: border-box;
 }
 
-.App{
-}
-
 h1{
   text-align: center;
   padding-top: 10px;
+}
+
+.App{
+  overflow-x: hidden;
+}
+
+.footer__section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #343a40!important;
+  padding: 5px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+/* .contact{
+  background-color: pink;
+} */
+
+.card__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
